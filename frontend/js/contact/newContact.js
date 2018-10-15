@@ -27,6 +27,9 @@
           io.socket.post('/contact', data, function (resData, jwres){
             if (jwres.statusCode === 200){
               contactForm.parsley().reset();
+              var output = document.getElementById('output');
+              output.src = '';
+              document.getElementById("contact-form").reset();
               contactModal.trigger("reset");
               contactModal.modal('hide');
             }
