@@ -20,8 +20,8 @@ module.exports.custom = {
   // stripeSecret: 'sk_test_Zzd814nldl91104qor5911gjald',
   // …
   aws:{
-    key:'AKIAJN23PHCGDNQJVSZA',
-    secret:'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',
+    key:'',
+    secret:'',
     s3BucketName:'rauxadev'
   }
 };
