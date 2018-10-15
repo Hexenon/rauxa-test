@@ -2,6 +2,9 @@
 
 ### Conventions
 
+#### Configure
+
+Please add your AWS key and secret in config/custom.js
 
 #### Using schema models
 We will use schema based models for future database engine migrations.
