@@ -32,7 +32,7 @@
     "supertest": "^3.3.0"
   },
   "scripts": {
-    "start": "NODE_ENV=production&&node app.js",
+    "start": "NODE_ENV=production node app.js",
     "start-win": "set NODE_ENV=stage&&node app.js",
     "stage": "NODE_ENV=stage&&node app.js",
     "stage-win": "set NODE_ENV=stage&&node app.js",

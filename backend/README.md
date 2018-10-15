@@ -39,9 +39,11 @@ Added wrapper service for responses, all responses has the same structure, for b
 
 ```
 sudo npm install -g grunt-cli
+sudo npm install -g eslint
+npm install
 ```
 
-#### Run tests and Linter
+
 ```
 npm run test
 ```
