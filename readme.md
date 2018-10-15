@@ -3,6 +3,10 @@
 Overview of this project.
 
 ## Aplication URL
+Add and Delete are realtime events, try with 2 browsers opened.
+
+[App](https://rauxa.bisobot.com/)
+
 https://rauxa.bisobot.com/
 
 
