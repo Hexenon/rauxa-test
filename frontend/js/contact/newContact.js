@@ -21,6 +21,8 @@
     $('#new-contact-save').click(function(e){
       contactForm.parsley().validate();
       if (contactForm.parsley().isValid()){
+        $('#new-contact-save').attr("disabled", true);
+        $('#new-contact-save').html('Saving');
         let data = objectifyForm(contactForm.serializeArray());
         uploadPhoto(function(response){
           data.file = response.data.files[0].id;
@@ -33,6 +35,9 @@
               contactModal.trigger("reset");
               contactModal.modal('hide');
             }
+            $('#new-contact-save').attr("disabled", false);
+            $('#new-contact-save').html('Save');
+
           });
         }, function(err){
           console.error(err);
