@@ -1,6 +1,13 @@
 # Rauxa Test Project
 
 Overview of this project.
+## Host
+This application is hosted using AWS technology.
+
+It uses one EC2 instance with NGINX as reverse proxy and CDN server, also it uses a RDS instance for database.
+
+All configurations are made by me, like elastic ip, ec2 via SSH, RDS, security groups and more.
+
 
 ## Aplication URL
 Add and Delete are realtime events, try with 2 browsers opened.
